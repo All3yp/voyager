@@ -17,16 +17,16 @@ sudo apt install exiftool
 
 Make the script executable.
 ```
-chmod +x voyager
+chmod +x voyager.sh
 ```
 
 
 ### Usage
 ```
-USAGE: ./voyager <target_url> <file_extension>
+USAGE: ./voyager.sh <target_url> <file_extension>
 ```
 
 #### Example
 ```
-./voyager googlelibrary.com pdf
+./voyager.sh googlelibrary.com pdf
 ```
